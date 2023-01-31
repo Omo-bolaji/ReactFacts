@@ -1,0 +1,69 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.navContainer{
+    display: flex;
+    background-color: #21222A;
+    width: 550px;
+    height: 91px;
+    padding: 31px 27px 31px 26px;
+    margin: 10px auto 0 auto;
+}
+.navContainer > h2 {
+    margin-right: 150px;
+    font-family: 'Inter';
+    color:  #61DAFB;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+}
+.navContainer > p{
+    color:  #DEEBF8;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Inter';
+    font-weight: 600;
+    margin-top: 3px;
+
+}
+.reacticon{
+    width: 28px;
+    height: 28px;
+    margin-right: 7px;
+}
+.mainContainer{
+    padding: 57px 99px 0 27px;
+    margin: auto;
+    width: 550px;
+    height: 459px;
+    background-color: #282D35;
+    position: relative;
+    background-image: url(/src/images/reactjs-icon\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right 65%;
+}
+.mainContainer > h1{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 39px;
+    font-weight: 700px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+    margin-bottom: 46px;
+}
+
+ul > li {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 60px;
+}
+li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
